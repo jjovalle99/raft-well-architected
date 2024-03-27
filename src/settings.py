@@ -7,6 +7,7 @@ class EnvironmentSettings(BaseSettings):
     LANGCHAIN_API_KEY: str
     OPENAI_API_KEY: str
     ANTHROPIC_API_KEY: str
+    LLAMA_CLOUD_API_KEY: str
 
     class Config:
         env_file = ".env"
