@@ -19,11 +19,17 @@ langchain-anthropic = "^0.1.4"
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.3"
 iprogress = "^0.4"
-python-dotenv = "^1.0.1"
 
 
 [tool.poetry.group.format.dependencies]
 ruff = "^0.3.4"
+
+
+
+
+[tool.poetry.group.raft.dependencies]
+llama-index = "^0.10.24"
+llama-parse = "^0.4.0"
 
 [build-system]
 requires = ["poetry-core"]
