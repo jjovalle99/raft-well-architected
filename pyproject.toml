@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "raft-well-architected"
+version = "0.1.0"
+description = ""
+authors = ["jjovalle99 <jj.ovalle@uniandes.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+langchain = "^0.1.13"
+langserve = {extras = ["all"], version = "^0.0.51"}
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+iprogress = "^0.4"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.format.dependencies]
+ruff = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+ine-length = 120
