@@ -10,8 +10,10 @@ packages = [{include = "src"}]
 python = "~3.11"
 langchain = "^0.1.13"
 langserve = {extras = ["all"], version = "^0.0.51"}
-python-dotenv = "^1.0.1"
 langchain-openai = "^0.1.1"
+pydantic = "^2.6.4"
+pydantic-settings = "^2.2.1"
+langchain-anthropic = "^0.1.4"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -28,4 +30,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.ruff]
-ine-length = 120
+line-length = 120
