@@ -19,6 +19,7 @@ modal = "^0.62.18"
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.3"
 iprogress = "^0.4"
+ipywidgets = "^8.1.2"
 
 
 [tool.poetry.group.format.dependencies]
@@ -32,6 +33,7 @@ llama-index = "^0.10.24"
 llama-parse = "^0.4.0"
 langchain-experimental = "^0.0.55"
 datasets = "^2.18.0"
+langchain-anthropic = "^0.1.4"
 
 [build-system]
 requires = ["poetry-core"]

@@ -8,6 +8,7 @@ class EnvironmentSettings(BaseSettings):
     OPENAI_API_KEY: str
     ANTHROPIC_API_KEY: str
     LLAMA_CLOUD_API_KEY: str
+    HF_TOKEN: str
 
     class Config:
         env_file = ".env"
