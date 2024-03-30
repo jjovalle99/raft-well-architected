@@ -9,7 +9,6 @@ packages = [{include = "src"}]
 [tool.poetry.dependencies]
 python = "~3.11"
 langchain = "^0.1.13"
-langserve = {extras = ["all"], version = "^0.0.51"}
 langchain-openai = "^0.1.1"
 pydantic = "^2.6.4"
 pydantic-settings = "^2.2.1"
