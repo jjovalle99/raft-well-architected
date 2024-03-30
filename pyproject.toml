@@ -13,6 +13,7 @@ langserve = {extras = ["all"], version = "^0.0.51"}
 langchain-openai = "^0.1.1"
 pydantic = "^2.6.4"
 pydantic-settings = "^2.2.1"
+modal = "^0.62.18"
 
 
 [tool.poetry.group.dev.dependencies]
