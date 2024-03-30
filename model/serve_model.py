@@ -56,7 +56,6 @@ mounts_map = {
     gpu=GPU_CONFIG,
     mounts=[Mount.from_local_file(**mounts_map["chat_template"])],
     allow_concurrent_inputs=50,
-    keep_warm=True,
     timeout=60 * 60,
 )
 @web_server(port=8000, startup_timeout=60)
